@@ -21,6 +21,7 @@ public class IngestaSensores {
     private static int descartadasPorRango = 0;
 
     public static void main(String[] args) throws IOException {
+        BancoDePruebas.probarBusquedaLineal();
 
         RepositorioLecturas repositorio = new RepositorioLecturas();
         AnalizadorMatriz analizador = new AnalizadorMatriz();
